@@ -1,0 +1,359 @@
+@font-face {
+    font-family: EduNSWACTFoundation-VariableFont_wght ;
+    
+    src: url('../fonts/EduNSWACTFoundation-VariableFont_wght.ttf')
+  }
+  
+  html{
+    scroll-behavior: smooth;
+  }
+  
+  body{
+    background-color: rgb(160,82,45);
+  }
+  
+  header{
+    padding: 1.5%;  
+    font-family: 'Patrick Hand', cursive;
+    background-color: rgb(255, 0, 0); 
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .fixo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  
+  }
+  
+  
+  
+  
+  .img_logo{
+    width: 30%;
+  }
+  
+  footer{
+    background-color: rgb(255, 0, 0); 
+    padding: 1.5%;  
+    font-family: 'Patrick Hand', cursive;
+  }
+  
+  .itens_menu{
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  .itens_menu a{
+    font-size: 1.2em;
+  }
+  
+  .itens_menu a:link, .itens_menu a:visited{ 
+      color: #fff;
+      text-decoration: none;
+    }  
+    /* mouse over link */
+  .itens_menu a:hover {
+      color: rgb(231, 226, 226);
+      padding: 0.8%;    
+      background-color: rgba(128, 128, 128, 0.3); 
+      text-decoration: none;
+      border-radius: 15%;
+  
+    }
+    
+    /* selected link */
+  .itens_menu a:active {
+      color: rgb(255, 0, 0);
+      text-decoration: none;
+    }
+  
+  section a:link{
+    color: #696969;
+  }
+  
+  section a:visited {
+    color: #FFF; 
+  }
+  
+  section a:hover{
+    color: rgb(255, 0, 0); 
+  }
+  
+  
+  .fundo_diferente{
+    background-image: linear-gradient(to right, #5e3d3d , #fff);
+  }
+  
+  .img_topo{
+    width: 100%;
+  }
+  
+  .img_corpo{
+    width: 50%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+  
+  figure{
+      text-align: center;
+  }
+  
+  .container{
+    width: 80%;
+    margin: auto;
+  }
+  
+  h1{
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+    font-family: 'Berkshire Swash', cursive;
+  }
+  
+  h2{
+    text-align: center;
+    color: 	#000000;
+    font-size: 1.5em;
+    margin-bottom: 2%;
+    font-family: 'Berkshire Swash', cursive;
+  }
+  
+  p{
+    font-size: 1.4em;
+    color: #fff;
+    text-align: justify;
+    text-indent: 40px;
+    line-height: 1.5;
+    font-family: 'EduNSWACTFoundation-VariableFont_wght',cursive;
+  }
+  
+  .parag_letras > p{
+  
+    font-size: 1em;
+    line-height: 1.5;
+  }
+  
+  .pinta_botao{
+    width: 150px;
+    height: 40px;
+    background-color: #ff0000;
+    margin: auto; 
+    padding: 0.2%;
+    text-align: center;  
+    padding-top: 3%; 
+        
+  }
+  
+  .pinta_botao:hover{
+    background-color: rgba(128, 128, 128, 0.3);
+  }
+  
+  .pinta_botao a:link, .pinta_botao :visited{
+    text-align: center;
+    text-decoration: none ; 
+    font-weight: bolder;   
+  
+  }
+  
+  footer p{
+  
+    font-size: 1.2em;
+    text-align: center;
+  
+  }
+  
+  section{
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  
+  .escondido{
+    display: none;
+  }
+  
+  .direita{
+    float:right;
+    width: 40%;
+    margin-left: 2%;
+  
+  }
+  
+  .esquerda{
+    float: left;
+    width: 30%;
+    
+    margin-right: 2%;
+  }
+  
+  table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 2%;
+    font-family: 'EduNSWACTFoundation-VariableFont_wght',cursive;
+   
+  }
+  
+  audio{
+    width: 70%;
+  }
+  
+  th{
+    font-size: 1.5em ;
+    font-weight: bolder;
+  }
+  
+  td,th{
+    border: 2px dotted #8B0000;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    
+  }
+  
+  tr:nth-child(even) {
+    background-color: rgba(128, 128, 128, 0.3);
+  }
+  
+  td:first-child{
+    width: 40%;
+  }
+  
+  td:first-child + td{
+    width: 60%;
+  }
+  
+  audio::-webkit-media-controls-panel{
+    background-color:rgba(128, 128, 128, 0.3) !important;
+    }
+  
+    .borda_form{
+      background-color: rgba(128, 128, 128, 0.3) ;
+      padding: 20px;
+      border-radius: 25px;
+      margin-top: 1%;
+      box-sizing: border-box;
+    }
+    label {
+      padding: 12px 12px 12px 0;
+      display: inline-block;
+      font-family: 'EduNSWACTFoundation-VariableFont_wght',cursive;
+    }
+  
+    input[type=text], select, textarea, input[type=tel], input[type=email] {
+      width: 90%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 15px;
+      resize: vertical;
+      font-family: 'EduNSWACTFoundation-VariableFont_wght',cursive;
+    }
+   
+  
+  .col-25{
+    width: 25%;
+    float: left;
+    margin-top: 6px;
+  
+  }
+  
+  .col-75{
+  width: 75%;
+  float: left;
+  margin-top: 6px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  input[type=submit] {
+    background-color: #8B0000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: black;
+    font-weight: bolder;
+   
+  }
+  
+  .botaoform{
+    margin-top: 3%;
+  }
+  
+  
+  /*Faz uma alteração quando a tela fica menor que 600px */
+  @media screen and (max-width:600px) {
+  
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+     
+    }  
+  
+    .banner{
+      margin-top: 40%;
+    }
+  
+    .logo{
+      padding-top: 1%;
+      padding-bottom: 1%;
+      text-align: center;
+    }
+  
+    .descer{
+      margin-top: 50%;
+    }
+  }
+  /*Faz uma alteração quando a tela fica maior que 601px */
+  @media screen and (min-width:601px) {
+  
+    header{
+      flex-direction: row;
+    }
+  
+    .itens_menu{
+      position: absolute;
+      right: 3%;
+      top: 30%;
+      width: 70%;
+  
+    }
+  
+    .itens_menu ul li {
+          display: inline;
+          margin-left: 1%;
+  
+  
+    }
+  
+    .banner{
+      margin-top: 8%;
+    }
+  
+    .logo{
+      padding-top: 1%;
+      padding-bottom: 1%;
+      text-align: left;
+      width: 30%;
+    }
+  
+    .descer{
+      margin-top: 10%;
+    }
+  
+      
+  }
