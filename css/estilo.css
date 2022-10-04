@@ -9,13 +9,13 @@
   }
   
   body{
-    background-color: rgb(160,82,45);
+    background-color: rgba(71, 61, 55, 0.459);
   }
   
   header{
     padding: 1.5%;  
     font-family: 'Patrick Hand', cursive;
-    background-color: rgb(255, 0, 0); 
+    background-color: rgba(48, 43, 43, 0.61); 
     position: relative;
     display: flex;
     flex-direction: column;
@@ -39,7 +39,7 @@
   }
   
   footer{
-    background-color: rgb(255, 0, 0); 
+    background-color:rgba(48, 43, 43, 0.61); 
     padding: 1.5%;  
     font-family: 'Patrick Hand', cursive;
   }
